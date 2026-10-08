@@ -19,7 +19,7 @@ pipeline {
 
                     withSonarQubeEnv('SonarQube') {
                         sh """
-                            "\${scannerHome}/bin/sonar-scanner" \
+                            "${scannerHome}/bin/sonar-scanner" \
                               -Dsonar.projectKey=mayavi-cloud-project \
                               -Dsonar.projectName=Mayavi \
                               -Dsonar.projectVersion=1.0 \
