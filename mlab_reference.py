@@ -1,3 +1,6 @@
+# Cloud Infrastructure Fall 2026
+# CI/CD pipeline integration test.
+# This file is used to verify GitHub-triggered SonarQube analysis.
 """
 Script to generate the function reference for mlab.
 
