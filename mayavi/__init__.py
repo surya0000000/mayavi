@@ -29,3 +29,4 @@ def _jupyter_nbextension_paths():
         dest="mayavi",
         require="mayavi/x3d/x3dom"
     )]
+# CI trigger verification: 2026-11-18T23:50:15.384641+00:00
